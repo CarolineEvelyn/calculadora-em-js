@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Glory:ital,wght@0,100..800;1,100..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", "Inter", "Georgia"; /*fontes do site*/
+ }
+
+body{
+    display: flex;  
+    justify-content: center;
+    align-items: center; /*no sei se precisa mesmo ;-;*/
+    height: 100vh; /*altura maxima*/
+    background-color: rgb(248, 248, 248); /* cor do fundo do site todo*/
+}
+
+.calculador{
+    width: 305px;
+    background-color: rgb(0, 0, 0); /* cor do fundo da calculadora*/
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgb(64, 117, 197); /*direita, baixo, desfoque?cimabaixo?*/
+    overflow: hidden; /*Corta o conteúdo que ultrapassa os limites do elemento*/
+}
+
+.resultado{
+    height: 75px;
+    padding: 20px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*4 colunas*/
+    grid-gap: 1px; /* distância entre os pixels*/
+}
+
+.buttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /*largura dos numeros*/
+    height: 60px; /*altura dos numeros*/
+    color: #fff6f6;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.buttonzero{
+    grid-column: span 2; /*zero ocupa o espaço de duas casas*/
+}
+
+.fundo-cinzaclaro, .buttonzero{
+    background-color: #228399;
+}
+
+.fundo-cinza{
+    background-color: #0e374e;
+}
+
+.fundo-laranja{
+    background-color: #145d87;
+}
+
+button:active{
+    opacity: 0.8;
+}
