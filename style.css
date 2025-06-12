@@ -70,3 +70,41 @@ body{
 button:active{
     opacity: 0.8;
 }
+
+/* historico*/ 
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.historico {
+    background-color: #f3f3f3;
+    width: 240px;
+    max-height: 420px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+
+.historico h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #145d87;
+}
+
+.lista-historico {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-historico li {
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    background: white;
+    border-left: 4px solid #145d87;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 1rem;
+    color: #333;
+}
