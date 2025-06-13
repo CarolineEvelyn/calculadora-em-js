@@ -55,15 +55,15 @@ body{
     grid-column: span 2; /*zero ocupa o espaço de duas casas*/
 }
 
-.fundo-cinzaclaro, .buttonzero{
+.fundo-azulclaro, .buttonzero{
     background-color: #228399;
 }
 
-.fundo-cinza{
+.fundo-azul{
     background-color: #0e374e;
 }
 
-.fundo-laranja{
+.fundo-azul1{
     background-color: #145d87;
 }
 
