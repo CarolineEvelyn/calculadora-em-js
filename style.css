@@ -19,7 +19,7 @@ body{
     width: 305px;
     background-color: rgb(0, 0, 0); /* cor do fundo da calculadora*/
     border-radius: 10px;
-    box-shadow: 0px 4px 4px rgb(64, 117, 197); /*direita, baixo, desfoque?cimabaixo?*/
+    box-shadow: 0px 4px 4px rgb(64, 117, 197); 
     overflow: hidden; /*Corta o conteúdo que ultrapassa os limites do elemento*/
 }
 
